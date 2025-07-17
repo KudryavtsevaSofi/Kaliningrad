@@ -1,0 +1,43 @@
+.hero-section {
+  max-height: 100vh;
+  width: auto;
+}
+
+.background-container {
+  /* position: relative; */
+  max-height: 100vh;
+  width: auto;
+}
+
+.back1 {
+    /* position: absolute; */
+  width: 100%;
+}
+
+.content-overlay {
+  position: absolute;
+  width: 85%;
+  left: 2rem;
+  top: 5rem;
+}
+
+.main-text-left {
+  font-family: "YsabeauSCLight";
+  color: white;
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.ticket {
+    transform: rotate(-8deg);
+    width: 130%;
+}
+
+.main-text-right {
+  text-align: end;
+  font-family: "YsabeauSCLight";
+  color: white;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
