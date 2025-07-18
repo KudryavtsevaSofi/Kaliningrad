@@ -1,3 +1,4 @@
+import '../assets/styles/header.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header = ( ) => {
@@ -11,8 +12,8 @@ const Header = ( ) => {
           <Navbar.Toggle aria-controls="myNavbar" />
           <Navbar.Collapse id="myNavbar" className="myNavbar">
             <Nav className="me-auto">
-              <Nav.Link href="#section1" className='header1' ><h5>Расписание</h5></Nav.Link>
-              <Nav.Link href="#section2" className='header2' ><h5>Хомлины</h5></Nav.Link>
+              <Nav.Link href="#section1" className='header' ><h5>Расписание</h5></Nav.Link>
+              <Nav.Link href="#section2" className='header' ><h5>Хомлины</h5></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -6,9 +6,8 @@ const HomePage = () => {
     <div className="page-wrapper">
       <Header/>
         <main className="main-content">
-            <Entry/>
+          <Entry/>
         </main>
-      {/* <Footer/> */}
     </div>
   )
 }
