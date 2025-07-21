@@ -1,6 +1,7 @@
 /* Для navbar */
 .navbar {
   position: relative; /* Это нужно для абсолютного позиционирования дочернего меню */
+  padding: 2% !important;
 }
 
 /* Для раскрывающегося меню */
@@ -12,7 +13,6 @@
   background-color:#212529;
   z-index: 1000;
   padding: 2%;
-  
 }
 
 .header {

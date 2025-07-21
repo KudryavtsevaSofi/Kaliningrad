@@ -1,5 +1,6 @@
 import Header from '../components/header';
 import Entry from '../components/entry';
+import Schedule from '../components/schedule';
 
 const HomePage = () => {
   return (
@@ -7,6 +8,7 @@ const HomePage = () => {
       <Header/>
         <main className="main-content">
           <Entry/>
+          <Schedule/>
         </main>
     </div>
   )
