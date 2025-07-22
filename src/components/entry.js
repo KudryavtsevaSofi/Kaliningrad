@@ -61,14 +61,14 @@ const Entry = () => {
                 <svg
                     className='button'
                     version="1.1"
-                    viewBox="0 0 430 430"
+                    viewBox="0 0 100 100"
                     baseProfile="full"
-                    width="100%"
-                    height="100%"
+                    width="100"
+                    height="200"
                     xmlns="http://www.w3.org/2000/svg"
                     >
-                    <circle cx="80" cy="80" r="80" stroke="white" strokeWidth="1" fill="none" />
-                    <foreignObject x="5" y="52" width="150" height="100" className='button-text-block'>
+                    <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="1" fill="none" />
+                    <foreignObject x="0" y="33" width="100" height="100" className='button-text-block'>
                         <div xmlns="http://www.w3.org/1999/xhtml">
                             <p>Что входит <br/> в состав?</p>
                         </div>
