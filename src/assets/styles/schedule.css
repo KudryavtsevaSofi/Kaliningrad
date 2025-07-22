@@ -18,52 +18,85 @@
     position: relative;
 }
 
-.day1 {
-    background-color: #AB9EA3;
+.day1, .day2, .day3, .day4, .day5, .day6{
     overflow: hidden;
     width: 100%;
 }
 
-.text-block-left {
-    width: 50%;
-    float: left;
+.day1 {
+    background-color: #9ea3ab;
+    
+}
+
+.day2 {
+    background-color: #AB9EA3;
+}
+
+.day3 {
+    background-color: #9395B8;
+}
+
+.day4 {
+    background-color: #EBCBA1;
+}
+
+.day5 {
+    background-color: #87A4B2;
+}
+
+.day6 {
+    background-color: #987c6d;
+}
+
+.text-block-left, .text-block-right {
+    width: 50vw;
+    height: 50vw;
     font-family: "YsabeauSCLight";
+    display: grid;
     text-align: center;
     padding: 2%;
 }
 
+.text-block-left {
+    float: left;
+}
+
 .text-block-right {
-    width: 50%;
     float: right;
-    font-family: "YsabeauSCLight";
-    text-align: center;
-    padding: 2%;
 }
 
 .day-title {
     font-size: 2rem;
 }
 
+.day-text {
+    text-align: center;
+}
+
+.day-img-right, .day-img-left {
+    width: 50vw;
+}
+
 .day-img-right{
-    width: 50%;
     float: right;
 }
 
 .day-img-left{
-    width: 50%;
     float: left;
 }
 
-.start{
+.start-right, .start-left {
     position:absolute;
-    left: 50%;
-    top:0%;
     font-size: 2.5rem;
     color: rgb(255, 255, 255);
     font-family: "YsabeauSCLight";
     background-color: rgba(0, 0, 0, 0.5);
-    width: 50%;
-    height: 0%;
+    width: 50vw;
+    height: 50vw;
     display: grid;
     place-items: center;
+}
+
+.start-right{
+    left: 50%;
 }
