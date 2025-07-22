@@ -10,7 +10,7 @@ const Schedule = ( ) => {
     return (
         <div className="schedule-wrapper">
             <div className="title-block">
-                <p className="schedule-title">Расписание</p>
+                <p className="schedule-title" id='section1'>Расписание</p>
             </div>
             <div className="days-block">
                 <div className="container-fluid">

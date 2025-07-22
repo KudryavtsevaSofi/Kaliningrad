@@ -1,0 +1,18 @@
+.homelins-title-block{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.homelins-title {
+    color: rgb(0, 0, 0);
+    font-family: "YsabeauSCLight";
+    font-size: 3rem;
+    text-align: center;
+    left: 18%;
+    margin: 0;
+}
+
+.card-block {
+    margin: 3%; 
+}

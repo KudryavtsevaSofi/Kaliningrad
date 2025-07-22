@@ -3,6 +3,7 @@ import '../assets/styles/home.css';
 import Header from '../components/header';
 import Entry from '../components/entry';
 import Schedule from '../components/schedule';
+import Homelins from '../components/homelins';
 import Footer from '../components/footer';
 import Desktop from '../assets/images/desktop-background.jpg';
 
@@ -27,6 +28,7 @@ const HomePage = () => {
           <main className="main-content">
             <Entry/>
             <Schedule/>
+            <Homelins/>
             <Footer/>
           </main>
         </div>
