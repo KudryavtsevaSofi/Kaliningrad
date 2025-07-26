@@ -1,0 +1,17 @@
+.card1, .accordion1 {
+    border-radius: 0;
+}
+
+.accordion1-header {
+    background-color: #212529;
+}
+
+.card1 {
+    font-family: "YsabeauSCLight";
+    
+}
+
+.card-title {
+    font-weight: 600;
+    text-align: center;
+}
