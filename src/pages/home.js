@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useLocation } from "react-router-dom";
 import '../assets/styles/home.css';
 import Header from '../components/header';
 import Entry from '../components/entry';
@@ -9,6 +10,7 @@ import Desktop from '../assets/images/desktop-background.jpg';
 
 const HomePage = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
       const mediaQuery = window.matchMedia('(max-width: 800px)');
@@ -19,6 +21,29 @@ const HomePage = () => {
       
       return () => mediaQuery.removeEventListener('change', handleMediaChange);
   }, []);
+
+  useEffect(() => {
+    const scrollToHash = () => {
+      if (location.hash) {
+        const element = document.getElementById(location.hash.slice(1)); // Убираем "#"
+        if (element) {
+          // Прокручиваем с небольшим отступом, если есть фиксированный header
+          const offset = 100; // Настройте под ваш дизайн
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth",
+          });
+        }
+      }
+    };
+
+    // Задержка для lazy-загрузки
+    const timer = setTimeout(scrollToHash, 300);
+    return () => clearTimeout(timer);
+  }, [location]);
 
   return (
     <div className="page-wrapper">

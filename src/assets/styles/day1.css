@@ -1,4 +1,8 @@
-.card1, .accordion1 {
+.card1 {
+    border-radius: 0;
+}
+
+.card1-img {
     border-radius: 0;
 }
 
@@ -11,7 +15,45 @@
     
 }
 
+.day1-wrapper{
+    background-color: #9ea3ab;
+}
+
+.d1-block {
+    /* margin: 2%; */
+}
+
 .card-title {
     font-weight: 600;
     text-align: center;
 }
+
+.link-text{
+    color: rgb(107, 166, 206);
+}
+
+.villas-title, .museum-title, .park-title, .bars-title{
+    color: rgb(0, 0, 0);
+    background-color: #9ea3ab;
+    font-family: "YsabeauSCLight";
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.antoshka-link {
+    margin: 5% 5% 0 5%;
+
+}
+
+.attention-img {
+    margin-top: 10px;
+    width: 7%;
+    float: left;
+    margin-right: 20px; 
+}
+
+html {
+    scroll-padding-top: 70px !important; 
+}
+

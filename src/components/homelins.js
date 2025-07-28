@@ -16,7 +16,7 @@ const Homelins = () => {
             </div>
             <CardGroup className='cards'>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Karl} />
+                    <Card.Img variant="top" src={Karl} id='Karl'/>
                     <Card.Body>
                     <Card.Title>Карл, дедушка‑хомлин</Card.Title>
                     <Card.Text>
@@ -31,7 +31,7 @@ const Homelins = () => {
                     <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlVCk6' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Marta} />
+                    <Card.Img variant="top" src={Marta} id='Marta'/>
                     <Card.Body>
                     <Card.Title>Марта, бабушка‑хомлин</Card.Title>
                     <Card.Text>
@@ -46,7 +46,7 @@ const Homelins = () => {
                     <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlzGKz' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Leo} />
+                    <Card.Img variant="top" src={Leo} id='Leo'/>
                     <Card.Body>
                     <Card.Title>Лео, папа‑хомлин</Card.Title>
                     <Card.Text>
@@ -61,7 +61,7 @@ const Homelins = () => {
                     <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlrW1r' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Varvara} />
+                    <Card.Img variant="top" src={Varvara} id='Varvara'/>
                     <Card.Body>
                     <Card.Title>Варвара, мама‑хомлин</Card.Title>
                     <Card.Text>
@@ -76,7 +76,7 @@ const Homelins = () => {
                     <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlzNkp' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Vitya} />
+                    <Card.Img variant="top" src={Vitya} id='Vitya'/>
                     <Card.Body>
                     <Card.Title>Витя, малыш‑хомлин</Card.Title>
                     <Card.Text>
@@ -90,7 +90,7 @@ const Homelins = () => {
                     <Button variant="secondary" href='https://yandex.ru/maps/-/CHHl7V~V' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Ulya} />
+                    <Card.Img variant="top" src={Ulya} id='Ulya'/>
                     <Card.Body>
                     <Card.Title>Уля, малышка‑хомлин</Card.Title>
                     <Card.Text>
@@ -104,7 +104,7 @@ const Homelins = () => {
                     <Button variant="secondary" href='https://yandex.ru/maps/-/CHHpEF1w' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
-                    <Card.Img variant="top" src={Antoshka} />
+                    <Card.Img variant="top" src={Antoshka} id='Antoshka'/>
                     <Card.Body>
                     <Card.Title>Антошка, малыш‑хомлин</Card.Title>
                     <Card.Text>

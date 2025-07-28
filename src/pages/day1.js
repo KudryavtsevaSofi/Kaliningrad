@@ -8,6 +8,17 @@ import Villa2 from '../assets/images/villa2.jpg';
 import Villa3 from '../assets/images/villa3.jpg';
 import Villa4 from '../assets/images/villa4.jpg';
 import Villa5 from '../assets/images/villa5.jpg';
+import Villa6 from '../assets/images/villa6.jpg';
+import Villa7 from '../assets/images/villa7.jpg';
+import Museum from '../assets/images/museum.jpg';
+import { Link } from 'react-router-dom';
+import Prud from '../assets/images/prud.jpg';
+import Park from '../assets/images/park.jpg';
+import London from '../assets/images/london.jpg';
+import Linch from '../assets/images/linch.jpg';
+import Attention from '../assets/images/attention.png';
+import Alice from '../assets/images/alice.jpg';
+import Horizont from '../assets/images/horizont.jpg';
 
 const Day1Page = () => {
     return (
@@ -21,10 +32,17 @@ const Day1Page = () => {
                         <Card.Text className='card-text'>
                         Небольшой уютный квартал, в котором легко почувствовать дух довоенного Кёнигсберга. Именно в Амалиенау можно увидеть 
                         старинные виллы и атмосферные кирхи. Каменные мостовые и изящные особняки бережно хранят свою историю, которая началась 
-                        больше 120 лет назад.
+                        больше 120 лет назад.<br/><br/>
+                        Сегодня нам предстоит посетить: <br/>
+                        1. <a href="#day1sec1" className='link-text'>Виллы и кирхи</a> <br/>
+                        2. <a href="#day1sec2" className='link-text'>Музей-квартира "Altes Haus"</a> <br/>
+                        3. <a href="#day1sec3" className='link-text'>Парк и пруд</a> <br/>
+                        4. <a href="#day1sec4" className='link-text'>Куда сходить вечером?</a>
                         </Card.Text>
                     </Card.ImgOverlay>
                 </Card>
+                <div className='d1-block' id='day1sec1'>
+                    <p className='villas-title'>Виллы и кирхи</p>
                 <Accordion flush className='accordion1'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header className='accordion1-header'>Историческая справка</Accordion.Header>
@@ -44,9 +62,9 @@ const Day1Page = () => {
                     </Accordion.Item>
                 </Accordion>
 
-                <CardGroup className='cards'>
-                    <Card className='card-block'>
-                        <Card.Img variant="top" src={Villa1} />
+                {/* <CardGroup className='cards'> */}
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa1} />
                         <Card.Body>
                         <Card.Title>Кирха Святого Адальберта</Card.Title>
                         <Card.Text>
@@ -61,8 +79,8 @@ const Day1Page = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className='card-block'>
-                        <Card.Img variant="top" src={Villa2} />
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa2} />
                         <Card.Body>
                         <Card.Title>Вилла Лео</Card.Title>
                         <Card.Text>
@@ -77,8 +95,8 @@ const Day1Page = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className='card-block'>
-                        <Card.Img variant="top" src={Villa3} />
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa3} />
                         <Card.Body>
                         <Card.Title>Вилла Шмидт</Card.Title>
                         <Card.Text>
@@ -93,8 +111,8 @@ const Day1Page = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className='card-block'>
-                        <Card.Img variant="top" src={Villa4} />
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa4} />
                         <Card.Body>
                         <Card.Title>Вилла Хонкамп</Card.Title>
                         <Card.Text>
@@ -108,8 +126,8 @@ const Day1Page = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className='card-block'>
-                        <Card.Img variant="top" src={Villa5} />
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa5} />
                         <Card.Body>
                         <Card.Title>Вилла Винтер</Card.Title>
                         <Card.Text>
@@ -124,7 +142,162 @@ const Day1Page = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                </CardGroup>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa6} />
+                        <Card.Body>
+                        <Card.Title>Вилла Михаэлис</Card.Title>
+                        <Card.Text>
+                            Красивое здание из белого кирпича с башенкой было построено в 1905 году. Вилла носит имя своего первого хозяина, 
+                            Эрнста Михаэлиса, директора местной кредитной компании. Дизайн здания необычен: по углам на фасаде можно увидеть 
+                            изображения женщин, напоминающих древних служительниц храмов, а на балконе — маскароны в египетских головных уборах. 
+                            В здании долгое время располагался детский сад, затем греческое консульство, а с 2021 года вилла принадлежит местному 
+                            автомобилестроительному заводу.
+                            <br/><br/>
+                            <b>Адрес:</b> улица Огарёва, 33
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Villa7} />
+                        <Card.Body>
+                        <Card.Title>Вилла Маковски</Card.Title>
+                        <Card.Text>
+                            Вилла в стиле модерн, отделанная жёлто‑красным кирпичом, была построена в 1905 году. Носит имя одного из первых владельцев, 
+                            местного предпринимателя Маковски, который в начале XX века торговал в городе спиртными напитками. Вилла с уютными балкончиками, 
+                            мансардой под черепичной крышей и аккуратными башенками напоминает таинственный домик из сказок братьев Гримм. Внутри здания 
+                            сохранились старинные двери и лестницы. Возможно, когда‑нибудь ими сможет полюбоваться любой желающий: в 2018 году виллу выкупила 
+                            компания, которая планирует переделать её в гостиницу.
+                            автомобилестроительному заводу.
+                            <br/><br/>
+                            <b>Адрес:</b> улица Кутузова, 7
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                {/* </CardGroup> */}
+                </div>
+                <div className='d1-block' id='day1sec2'>
+                    <p className='museum-title'>Музей-квартира</p>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Museum} />
+                        <Card.Body>
+                        <Card.Text>
+                            <b>Музей‑квартира  Altes Haus</b><br/>
+                            <b>Адрес:</b> Красная улица, 11
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Accordion flush className='accordion2'>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header className='accordion2-header'>О музее</Accordion.Header>
+                            <Accordion.Body>
+                            Прогуливаясь по Амалиенау, то и дело хочется заглянуть внутрь красивых домов и полюбоваться их старинными интерьерами. 
+                            Такая возможность появилась в 2014 году, когда открылся музей «Альтес‑Хаус», расположенный в здании 1912 года постройки. 
+                            Он посвящён быту купца Густава Гроссмана, который владел продуктовой лавкой и более ста лет назад жил в этой квартире. 
+                            В музее словно попадаешь в старинную Пруссию. Здесь восстановили интерьеры XIX — начала XX века, а также собрали мебель 
+                            и удивительные предметы быта того времени. В прихожей можно узнать, при помощи какого приспособления снимали офицерские сапоги 
+                            (они были настолько узкими, что надеть и снять их без помощи было невозможно). В ванной — подивиться хитрому приспособлению, 
+                            которое облегчало жизнь хозяйкам при стирке вещей. А в гостиной — увидеть её главное украшение, пианино Georg Hoffmann 1900 года 
+                            выпуска. В музее можно попробовать марципан, которым более ста лет славился Кёнигсберг. После войны производство было приостановлено, 
+                            но в 2000‑х старинные рецепты возродили. Кстати, изначально сладкое угощение из миндаля продавали в европейских аптеках в качестве 
+                            антидепрессанта.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                    <Card className='antoshka-link'>
+                        <Card.Body className='antoshka-text'>
+                            <img className='attention-img' src={Attention} />
+                            Также здесь вы можете познакомиться с {" "}
+                            <Link to="/#Antoshka" className='link-text'>
+                                Антошкой
+                            </Link>
+                            , малышом-хомлином
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className='d1-block' id='day1sec3'>
+                    <p className='park-title'>Парк и пруд</p>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Prud} />
+                    </Card>
+                    <Accordion flush className='accordion3'>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header className='accordion3-header'>Пруд "Поплавок"</Accordion.Header>
+                            <Accordion.Body>
+                            Пруд был создан в начале XX в. Свое первоначальное название - Цвиллингтайх (Пруд Близнецы) - водоем получил из-за необычной 
+                            формы: он состоит из двух практически равных частей, соединенных тремя протоками. В 1949 г. пруд переименовали в Поплавок.
+                            Однако в разговорной речи гораздо более распространенным было и остается неофициальное название Хлебное озеро, поскольку 
+                            рядом с прудом был хлебный магазин.
+                            Пруд, был построен с целью сбора избыточной влаги с прилегающих территорий при строительстве нового городского района Кёнигсберга 
+                            - Амалиенау. Район получил своё название от дворянского имения, которому ранее принадлежала эта территория. Группа архитекторов, 
+                            взявшихся за планировку застройки района, составили единый план, по которому район задумывался, как «город-сад», где 
+                            предусматривалась малоэтажная застройка с обилием деревьев. До этого времени закон прусского градостроительства разрешал 
+                            строительство только прямых улиц. Специально для этого проекта закон был изменён. Ни одна из улиц района не пересекается 
+                            под прямым углом. Изогнутые очертания пруда отлично вписались в концепцию застройки нового городского района.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Park} />
+                    </Card>
+                    <Accordion flush className='accordion4'>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header className='accordion4-header'>Центральный парк культуры и отдыха</Accordion.Header>
+                            <Accordion.Body>
+                            История парка начинается в конце XVIII века. Тогда на этой территории находилась усадьба Пойентеров с парком. 
+                            В 80-е годы XVIII века поместье и парк приобрёл обер-бургомистр Кёнигсберга Т. Г. Фон Гиппель. По его инициативе 
+                            парк был перепланирован в соответствии с английскими принципами. В 1808 - 1809 году парк стал летней резиденцией 
+                            прусского королевского семейства. Особенно парк любила королева Луиза. В парке был выстроен небольшой дом, в 
+                            котором во время пребывания в Кёнигсберге жила королева. Территория немецкого парка «Луизен» после войны находилась в 
+                            крайне запущенном состоянии, не имела ограждений и крытых сооружений. Осваивать новую территорию начали лишь в 1949 году. 
+                            В 1949 году парк получает новое название «Центральный парк культуры и отдыха им. М.И. Калинина». Так он будет называться 
+                            до начала 90-х годов.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </div>
+                <div className='d1-block' id='day1sec4'>
+                    <p className='bars-title'>Бары и рестораны</p>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={London} />
+                        <Card.Body>
+                        <Card.Text>
+                            <a href='https://londonpub.ru/londonpub/about' className='link-text'> Паб "Лондон" </a> <br/>
+                            Адрес: просп. Мира, 33<br/>
+                            Уникальное заведение, переносящее тебя в самый настоящий английский паб<br/>
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Linch} />
+                        <Card.Body>
+                        <Card.Text>
+                            <a href='https://linch.clients.site/' className='link-text'> Бар "Linch" </a> <br/>
+                            Адрес: просп. Мира, 41-43<br/>
+                            Бар, отличающийся не только интересными напитками, но и современным интерьером.<br/>
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Alice} />
+                        <Card.Body>
+                        <Card.Text>
+                            <a href='https://nora39.tb.ru/' className='link-text'> Кроличья нора </a> <br/>
+                            Адрес: Офицерская ул., 2<br/>
+                            Заведение в стилистике “Алисы в стране чудес”<br/>
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card className='card1'>
+                        <Card.Img className='card1-img' variant="top" src={Horizont} />
+                        <Card.Body>
+                        <Card.Text>
+                            <a href='https://yandex.ru/maps/-/CHXQr2-G' className='link-text'> У вас горизонт завален </a> <br/>
+                            Адрес:Коммунальная ул., 4<br/>
+                            Современный бар с красивым интерьером<br/>
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
             </div>
             <Footer />
         </div>

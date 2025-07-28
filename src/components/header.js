@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import '../assets/styles/header.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 
 const Header = ( ) => {
   const [expanded, setExpanded] = useState(false);
@@ -27,8 +27,8 @@ const Header = ( ) => {
         <Navbar.Toggle aria-controls="myNavbar" />
         <Navbar.Collapse id="myNavbar" className="myNavbar">
           <Nav className="me-auto">
-            <Nav.Link href="#section1" className='header' onClick={handleNavClick}><h5>Расписание</h5></Nav.Link>
-            <Nav.Link href="#section2" className='header' onClick={handleNavClick}><h5>Хомлины</h5></Nav.Link>
+            <Link to="/#section1" className='header' onClick={handleNavClick}><h5>Расписание</h5></Link>
+            <Link to="/#section2" className='header' onClick={handleNavClick}><h5>Хомлины</h5></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
