@@ -101,3 +101,7 @@
 .start-right{
     left: 50%;
 }
+
+html {
+    scroll-padding-top: 70px !important; 
+}
