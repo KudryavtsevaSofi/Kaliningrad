@@ -1,7 +1,7 @@
 import '../assets/styles/days.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import { Card, Accordion } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { useEffect } from 'react';
 import Museum1 from '../assets/images/museum1.jpg';
 import Bunker from '../assets/images/bunker.jpg';
