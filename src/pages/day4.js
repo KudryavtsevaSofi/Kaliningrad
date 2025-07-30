@@ -2,7 +2,6 @@ import '../assets/styles/days.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import { Card, Accordion } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import Zelenogradsk from '../assets/images/zelenogradsk.jpg';
 import Kosa from '../assets/images/kosa.jpg';
