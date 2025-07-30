@@ -8,6 +8,7 @@ import Zelenogradsk from '../assets/images/zelenogradsk.jpg';
 import Kosa from '../assets/images/kosa.jpg';
 import Architecture from '../assets/images/architecture.jpg';
 import Seafront from '../assets/images/seafront.jpg';
+import Promenad from '../assets/images/promenad.jpg';
 
 const Day4Page = () => {
 
@@ -111,22 +112,12 @@ const Day4Page = () => {
                 <div className='d1-block' id='day3sec4'>
                     <p className='block-title-smallest'>Куда сходить вечером?</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Brecel} />
+                        <Card.Img className='card1-img' variant="top" src={Promenad} />
                         <Card.Body>
                         <Card.Text>
-                            <a href='https://rk-rk.ru/restorany/pivnoj-restoran-bretsel/' className='blue-link-text'> Брецель </a> <br/>
-                            Адрес: ул. Александра Невского, 10<br/>
-                            «Брецель» располагает собственной пивоварней, производящей семь сортов свежего пива<br/>
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Vtarelke} />
-                        <Card.Body>
-                        <Card.Text>
-                            <a href='https://istoriyavtarelke.ru/' className='blue-link-text'> История в тарелке </a> <br/>
-                            Адрес: ул. Литовский Вал, 21Д<br/>
-                            Дегустационные сеты от шеф-повара, путешествие сквозь века по истории Калининградской области с ее самой вкусной стороны в старинном блокгаузе XIX века<br/>
+                            <a href='https://promenad39.ru/' className='blue-link-text'> Променад </a> <br/>
+                            Адрес: ул. Володарского, 24В<br/>
+                            Окунитесь в атмосферу гостеприимства, наслаждайтесь видом на море и поймайте волну гастрономического удовольствия
                         </Card.Text>
                         </Card.Body>
                     </Card>
