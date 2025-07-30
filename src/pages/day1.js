@@ -32,7 +32,7 @@ const Day1Page = () => {
             <Header />
             <div>
                 <Card className="bg-dark text-white top-card">
-                    <Card.Img src={Amalienau} alt="Card image" />
+                    <Card.Img className="top-card-img" src={Amalienau} alt="Card image" />
                     <Card.ImgOverlay>
                         <Card.Title className='card-title'>1 день | амалиенау</Card.Title>
                         <Card.Text className='card-text'>

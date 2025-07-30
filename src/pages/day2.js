@@ -27,7 +27,7 @@ const Day2Page = () => {
             <Header />
             <div>
                 <Card className="bg-dark text-white top-card">
-                    <Card.Img src={Center} alt="Card image" />
+                    <Card.Img className="top-card-img" src={Center} alt="Card image" />
                     <Card.ImgOverlay>
                         <Card.Title className='card-title'>2 день | центр города</Card.Title>
                         <Card.Text className='card-text'>
