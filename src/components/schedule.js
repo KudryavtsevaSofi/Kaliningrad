@@ -18,7 +18,7 @@ const Schedule = ( ) => {
                     <div className="day1">
                         <div className='text-block-left'>
                             <p className='day-title'>1 день</p>
-                            <p className='day-text'>Отдыхаем после перелета и наслаждаемся городскими ландшафтами</p>
+                            <p className='day-text'>Наслаждаемся городскими ландшафтами</p>
                         </div>
                         <img className='day-img-right' src={Day1} alt=""></img>
                         <Link to="/day1" className='start-right'>начать</Link>
