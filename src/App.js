@@ -6,7 +6,7 @@ import { AppRouter } from './utils/AppRouter';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Kaliningrad">
         <AppRouter />
       </Router>
     </div>
