@@ -28,7 +28,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Медовый мост 
                     </Card.Text>
                     </Card.Body> 
-                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=54.705874,20.513715&z=16&pt=54.705874,20.513715' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.513722,54.705823&z=16&pt=20.513722,54.705823' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Marta} id='Marta' alt=""/>
@@ -43,7 +43,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Башня Дона 
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlzGKz' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.523026,54.722117&z=16&pt=20.523026,54.722117' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Leo} id='Leo' alt=""/>
@@ -58,7 +58,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Областной музей изобразительных искусств 
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlrW1r' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.506393,54.705121&z=16&pt=20.506393,54.705121' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Varvara} id='Varvara' alt=""/>
@@ -73,7 +73,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Башня Врангеля 
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlzNkp' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.514415,54.722327&z=16&pt=20.514415,54.722327' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Vitya} id='Vitya' alt=""/>
@@ -87,7 +87,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Музей Мирового океана 
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHl7V~V' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.500574,54.706247&z=16&pt=20.500574,54.706247' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Ulya} id='Ulya' alt=""/>
@@ -101,7 +101,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Калининградский зоопарк 
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHpEF1w' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.487863,54.720361&z=16&pt=20.487863,54.720361' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Antoshka} id='Antoshka' alt=""/>
@@ -115,7 +115,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Музей «Альтес хаус»
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHpU4iX' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?ll=20.474589,54.722106&z=16&pt=20.474589,54.722106' className='card-btn'>Показать на карте</Button>
                 </Card>
             </CardGroup>
         </div>
