@@ -68,7 +68,7 @@ const Day1Page = () => {
                     </Accordion.Item>
                 </Accordion>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa1} />
+                    <Card.Img className='card1-img' variant="top" src={Villa1} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Кирха Святого Адальберта</Card.Title>
                     <Card.Text>
@@ -84,7 +84,7 @@ const Day1Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa2} />
+                    <Card.Img className='card1-img' variant="top" src={Villa2} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Вилла Лео</Card.Title>
                     <Card.Text>
@@ -100,7 +100,7 @@ const Day1Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa3} />
+                    <Card.Img className='card1-img' variant="top" src={Villa3} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Вилла Шмидт</Card.Title>
                     <Card.Text>
@@ -116,7 +116,7 @@ const Day1Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa4} />
+                    <Card.Img className='card1-img' variant="top" src={Villa4} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Вилла Хонкамп</Card.Title>
                     <Card.Text>
@@ -131,7 +131,7 @@ const Day1Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa5} />
+                    <Card.Img className='card1-img' variant="top" src={Villa5} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Вилла Винтер</Card.Title>
                     <Card.Text>
@@ -147,7 +147,7 @@ const Day1Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa6} />
+                    <Card.Img className='card1-img' variant="top" src={Villa6} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Вилла Михаэлис</Card.Title>
                     <Card.Text>
@@ -162,7 +162,7 @@ const Day1Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Villa7} />
+                    <Card.Img className='card1-img' variant="top" src={Villa7} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Вилла Маковски</Card.Title>
                     <Card.Text>
@@ -181,7 +181,7 @@ const Day1Page = () => {
                 <div className='d1-block' id='day1sec2'>
                     <p className='block-title'>Музей-квартира</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Museum} />
+                        <Card.Img className='card1-img' variant="top" src={Museum} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <b>Музей‑квартира  Altes Haus</b><br/>
@@ -208,7 +208,7 @@ const Day1Page = () => {
                     </Accordion>
                     <Card className='homlin-link'>
                         <Card.Body className='homlin-text'>
-                            <img className='attention-img' src={Attention} />
+                            <img className='attention-img' src={Attention} alt="Card image"/>
                             Также здесь вы можете познакомиться с {" "}
                             <Link to="/#Antoshka" className='blue-link-text'>
                                 Антошкой
@@ -220,7 +220,7 @@ const Day1Page = () => {
                 <div className='d1-block' id='day1sec3'>
                     <p className='block-title'>Парк и пруд</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Prud} />
+                        <Card.Img className='card1-img' variant="top" src={Prud} alt="Card image"/>
                     </Card>
                     <Accordion flush className='accordion1'>
                         <Accordion.Item eventKey="0">
@@ -240,7 +240,7 @@ const Day1Page = () => {
                         </Accordion.Item>
                     </Accordion>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Park} />
+                        <Card.Img className='card1-img' variant="top" src={Park} alt="Card image"/>
                     </Card>
                     <Accordion flush className='accordion1'>
                         <Accordion.Item eventKey="0">
@@ -261,7 +261,7 @@ const Day1Page = () => {
                 <div className='d1-block' id='day1sec4'>
                     <p className='block-title-smallest'>Куда сходить вечером?</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={London} />
+                        <Card.Img className='card1-img' variant="top" src={London} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://londonpub.ru/londonpub/about' className='blue-link-text'> Паб "Лондон" </a> <br/>
@@ -271,7 +271,7 @@ const Day1Page = () => {
                         </Card.Body>
                     </Card>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Linch} />
+                        <Card.Img className='card1-img' variant="top" src={Linch} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://linch.clients.site/' className='blue-link-text'> Бар "Linch" </a> <br/>
@@ -281,7 +281,7 @@ const Day1Page = () => {
                         </Card.Body>
                     </Card>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Alice} />
+                        <Card.Img className='card1-img' variant="top" src={Alice} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://nora39.tb.ru/' className='blue-link-text'> Кроличья нора </a> <br/>
@@ -291,7 +291,7 @@ const Day1Page = () => {
                         </Card.Body>
                     </Card>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Horizont} />
+                        <Card.Img className='card1-img' variant="top" src={Horizont} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://yandex.ru/maps/-/CHXQr2-G' className='blue-link-text'> У вас горизонт завален </a> <br/>

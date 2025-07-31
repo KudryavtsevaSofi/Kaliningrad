@@ -7,10 +7,10 @@ const Footer = () => {
             <section className="p-3">
                 <div className="d-flex justify-content-center">
                     <a href="https://t.me/kudryavtseva_si">
-                        <img src={TG} style={{width: '30px', marginRight: '30px'}}></img>
+                        <img src={TG} style={{width: '30px', marginRight: '30px'}} alt="tg"></img>
                     </a>
                     <a href="https://github.com/KudryavtsevaSofi">
-                        <img src={GH} style={{width: '30px', marginLeft: '30px'}}></img>
+                        <img src={GH} style={{width: '30px', marginLeft: '30px'}} alt="gh"></img>
                     </a>
                 </div>
             </section>

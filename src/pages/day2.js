@@ -27,7 +27,7 @@ const Day2Page = () => {
             <Header />
             <div>
                 <Card className="bg-dark text-white top-card">
-                    <Card.Img className="top-card-img" src={Center} alt="Card image" />
+                    <Card.Img className="top-card-img" src={Center} alt="Card image"/>
                     <Card.ImgOverlay>
                         <Card.Title className='card-title'>2 день | центр города</Card.Title>
                         <Card.Text className='card-text'>
@@ -53,7 +53,7 @@ const Day2Page = () => {
                                 слова — Кнайпхоф.
                             </div>
                             <Card className='accordion-card'>
-                                <Card.Img className='card1-img' variant="top" src={Island1} />
+                                <Card.Img className='card1-img' variant="top" src={Island1} alt="Card image"/>
                                 <Card.Body>
                                 <Card.Text>
                                     1581 год. Три города Кёнигсберга: Альтштадт, Кнайпхоф и Хаберберг
@@ -66,7 +66,7 @@ const Day2Page = () => {
                                 трамвайных маршрутов.
                             </div>
                             <Card className='accordion-card'>
-                                <Card.Img className='card1-img' variant="top" src={Island2} />
+                                <Card.Img className='card1-img' variant="top" src={Island2} alt="Card image"/>
                                 <Card.Body>
                                 <Card.Text>
                                     1925–1935 годы. Улица Кнайпхофская
@@ -80,7 +80,7 @@ const Day2Page = () => {
                                 в прусском Кёнигсберге всю свою жизнь.
                             </div>
                             <Card className='accordion-card'>
-                                <Card.Img className='card1-img' variant="top" src={Island3} />
+                                <Card.Img className='card1-img' variant="top" src={Island3} alt="Card image"/>
                                 <Card.Body>
                                 <Card.Text>
                                     1950–1965 годы. Руины Кафедрального собора
@@ -101,7 +101,7 @@ const Day2Page = () => {
                 </Card>
                 <Card className='homlin-link'>
                     <Card.Body className='homlin-text'>
-                        <img className='attention-img' src={Attention} />
+                        <img className='attention-img' src={Attention} alt="Card image"/>
                         Также здесь вы можете познакомиться с {" "}
                         <Link to="/#Karl" className='blue-link-text'>
                             Карлом
@@ -113,7 +113,7 @@ const Day2Page = () => {
                     <p className='block-title-small'>Кафедральный собор</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Sobor} />
+                    <Card.Img className='card1-img' variant="top" src={Sobor} alt="Card image"/>
                     <Card.Body>
                     <Card.Text>
                         Величественное готическое сооружение — негласный символ Калининграда. Датой основания собора принято считать 1333 год, 
@@ -132,7 +132,7 @@ const Day2Page = () => {
                     <p className='block-title'>Могила Канта</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Kant} />
+                    <Card.Img className='card1-img' variant="top" src={Kant} alt="Card image"/>
                     <Card.Body>
                     <Card.Text>
                         Бывший Кнайпхоф известен как место, где находится прах знаменитого немецкого мыслителя. Иммануил Кант родился в Кёнигсберге, 
@@ -147,7 +147,7 @@ const Day2Page = () => {
                     <p className='block-title'>Рыбная деревня</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Village} />
+                    <Card.Img className='card1-img' variant="top" src={Village} alt="Card image"/>
                     <Card.Body>
                     <Card.Text>
                         Историко-этнографический район расположен вдоль реки Преголи, напротив главного архитектурного памятника города — Кафедрального 
@@ -165,7 +165,7 @@ const Day2Page = () => {
                 <div className='d1-block' id='day2sec4'>
                     <p className='block-title-smallest'>Куда сходить вечером?</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Alchem} />
+                        <Card.Img className='card1-img' variant="top" src={Alchem} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://alhimbar.ru/' className='blue-link-text'> Чердак Алхимика </a> <br/>
@@ -175,7 +175,7 @@ const Day2Page = () => {
                         </Card.Body>
                     </Card>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Pirat} />
+                        <Card.Img className='card1-img' variant="top" src={Pirat} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='http://www.pirat39.ru/' className='blue-link-text'> Пират Хауз </a> <br/>
@@ -185,7 +185,7 @@ const Day2Page = () => {
                         </Card.Body>
                     </Card>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Dk} />
+                        <Card.Img className='card1-img' variant="top" src={Dk} alt="Card image"/>
                         <Card.Body>
                         <Card.Text>
                             <a href='http://www.pirat39.ru/' className='blue-link-text'> ДК закрыто, входите </a> <br/>

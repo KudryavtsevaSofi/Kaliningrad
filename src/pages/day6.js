@@ -28,7 +28,7 @@ const Day6Page = () => {
                     </Card.ImgOverlay>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Sobranie} />
+                    <Card.Img className='card1-img' variant="top" src={Sobranie} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Казино Sobranie</Card.Title>
                     <Card.Text>
@@ -42,7 +42,7 @@ const Day6Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Shambala} />
+                    <Card.Img className='card1-img' variant="top" src={Shambala} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Казино Шамбала</Card.Title>
                     <Card.Text>

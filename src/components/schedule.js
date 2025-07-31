@@ -20,7 +20,7 @@ const Schedule = ( ) => {
                             <p className='day-title'>1 день</p>
                             <p className='day-text'>Отдыхаем после перелета и наслаждаемся городскими ландшафтами</p>
                         </div>
-                        <img className='day-img-right' src={Day1}></img>
+                        <img className='day-img-right' src={Day1} alt="Card image"></img>
                         <Link to="/day1" className='start-right'>начать</Link>
                     </div>
                     <div className="day2">
@@ -28,7 +28,7 @@ const Schedule = ( ) => {
                             <p className='day-title'>2 день</p>
                             <p className='day-text'>Идем в центр</p>
                         </div>
-                        <img className='day-img-left' src={Day2}></img>
+                        <img className='day-img-left' src={Day2} alt="Card image"></img>
                         <Link to="/day2" className='start-left'>начать</Link>
                     </div>
                     <div className="day3">
@@ -36,7 +36,7 @@ const Schedule = ( ) => {
                             <p className='day-title'>3 день</p>
                             <p className='day-text'>Погружаемся в историю города-крепости </p>
                         </div>
-                        <img className='day-img-right' src={Day3}></img>
+                        <img className='day-img-right' src={Day3} alt="Card image"></img>
                         <Link to="/day3" className='start-right'>начать</Link>
                     </div>
                     <div className="day4">
@@ -44,7 +44,7 @@ const Schedule = ( ) => {
                             <p className='day-title'>4 день</p>
                             <p className='day-text'>Путешествие внутри путешествия: едем в Зеленоградск</p>
                         </div>
-                        <img className='day-img-left' src={Day4}></img>
+                        <img className='day-img-left' src={Day4} alt="Card image"></img>
                         <Link to="/day4" className='start-left'>начать</Link>
                     </div>
                     <div className="day5">
@@ -52,7 +52,7 @@ const Schedule = ( ) => {
                             <p className='day-title'>5 день</p>
                             <p className='day-text'>Узнаем культурное наследие - самое время заглянуть в музеи</p>
                         </div>
-                        <img className='day-img-right' src={Day5}></img>
+                        <img className='day-img-right' src={Day5} alt="Card image"></img>
                         <Link to="/day5" className='start-right'>начать</Link>
                     </div>
                     <div className="day6">
@@ -60,7 +60,7 @@ const Schedule = ( ) => {
                             <p className='day-title'>6 день</p>
                             <p className='day-text'>Один раз живем - идем в отрыв!</p>
                         </div>
-                        <img className='day-img-left' src={Day6}></img>
+                        <img className='day-img-left' src={Day6} alt="Card image"></img>
                         <Link to="/day6" className='start-left'>начать</Link>
                     </div>
                 </div>

@@ -48,7 +48,7 @@ const Day5Page = () => {
                     <p className='block-title-smallest'>Исторические музеи</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Bunker} />
+                    <Card.Img className='card1-img' variant="top" src={Bunker} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Бункер Отто Ляша</Card.Title>
                     <Card.Text>
@@ -64,7 +64,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Kantmuseum} />
+                    <Card.Img className='card1-img' variant="top" src={Kantmuseum} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Музей Канта</Card.Title>
                     <Card.Text>
@@ -82,7 +82,7 @@ const Day5Page = () => {
                     <p className='block-title-smallest'>Музеи искусств</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Art} />
+                    <Card.Img className='card1-img' variant="top" src={Art} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Калининградский музей изобразительных искусств</Card.Title>
                     <Card.Text>
@@ -100,7 +100,7 @@ const Day5Page = () => {
                 </Card>
                 <Card className='homlin-link-V'>
                     <Card.Body className='homlin-text'>
-                        <img className='attention-img' src={Attention} />
+                        <img className='attention-img' src={Attention} alt="Card image"/>
                         Также здесь вы можете познакомиться с {" "}
                         <Link to="/#Leo" className='blue-link-text'>
                             Лео
@@ -109,7 +109,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Sculpture} />
+                    <Card.Img className='card1-img' variant="top" src={Sculpture} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Парк скульптуры</Card.Title>
                     <Card.Text>
@@ -125,7 +125,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Postmarks} />
+                    <Card.Img className='card1-img' variant="top" src={Postmarks} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Музей почтовых открыток</Card.Title>
                     <Card.Text>
@@ -141,7 +141,7 @@ const Day5Page = () => {
                     <p className='block-title-smallest'>Маринистические музеи</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Ocean} />
+                    <Card.Img className='card1-img' variant="top" src={Ocean} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Музей Мирового океана</Card.Title>
                     <Card.Text>
@@ -157,7 +157,7 @@ const Day5Page = () => {
                 </Card>
                 <Card className='homlin-link-V'>
                     <Card.Body className='homlin-text'>
-                        <img className='attention-img' src={Attention} />
+                        <img className='attention-img' src={Attention} alt="Card image"/>
                         Также здесь вы можете познакомиться с {" "}
                         <Link to="/#Vitya" className='blue-link-text'>
                             Витей
@@ -166,7 +166,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Vityaz} />
+                    <Card.Img className='card1-img' variant="top" src={Vityaz} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>НИС «Витязь»</Card.Title>
                     <Card.Text>
@@ -181,7 +181,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Submarine} />
+                    <Card.Img className='card1-img' variant="top" src={Submarine} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Подводная лодка Б‑413</Card.Title>
                     <Card.Text>
@@ -198,7 +198,7 @@ const Day5Page = () => {
                     <p className='block-title-smallest'>Локальные музеи</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Marcipan} />
+                    <Card.Img className='card1-img' variant="top" src={Marcipan} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Музей марципана</Card.Title>
                     <Card.Text>
@@ -216,7 +216,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Yantar} />
+                    <Card.Img className='card1-img' variant="top" src={Yantar} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Музей янтаря</Card.Title>
                     <Card.Text>
@@ -231,7 +231,7 @@ const Day5Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Kitoboy} />
+                    <Card.Img className='card1-img' variant="top" src={Kitoboy} alt="Card image"/>
                     <Card.Body>
                     <Card.Title>Дом китобоя</Card.Title>
                     <Card.Text>
