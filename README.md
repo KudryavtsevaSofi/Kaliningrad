@@ -12,19 +12,16 @@ HTML, CSS, Javascript, React, Bootstrap
 <table>
   <tr>
     <td valign="top" align="center">
-      <img width="200" src="demo1.png" />
+      <img width="250" src="demo1.png" />
     </td>
     <td valign="top" align="center">
-      <img width="200" src="demo2.png" />
+      <img width="250" src="demo2.png" />
     </td>
     <td valign="top" align="center">
-      <img width="200" src="demo3.png" />
+      <img width="250" src="demo3.png" />
     </td>
     <td valign="top" align="center">
-      <img width="200" src="demo4.png" />
-    </td>
-    <td valign="top" align="center">
-      <img width="200" src="demo5.png" />
+      <img width="250" src="demo4.png" />
     </td>
   </tr>
 </table>
