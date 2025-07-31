@@ -20,7 +20,7 @@ const Day4Page = () => {
             <Header />
             <div>
                 <Card className="bg-dark text-white top-card">
-                    <Card.Img className="top-card-img" src={Zelenogradsk} alt="Card image" />
+                    <Card.Img className="top-card-img" src={Zelenogradsk} alt="" />
                     <Card.ImgOverlay>
                         <Card.Title className='card-title'>4 день | отправляемся в зеленоградск</Card.Title>
                         <Card.Text className='card-text'>
@@ -65,7 +65,7 @@ const Day4Page = () => {
                     <p className='block-title'>Куршская коса</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Kosa} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Kosa} alt=""/>
                     <Card.Body>
                     <Card.Text>
                         Национальный парк «Куршская коса» расположен в приграничной с Литвой части Калининградской области на узкой полоске суши между 
@@ -83,7 +83,7 @@ const Day4Page = () => {
                     <p className='block-title'>Архитектура</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Architecture} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Architecture} alt=""/>
                     <Card.Body>
                     <Card.Text>
                         Пешеходный Курортный проспект выглядит словно улочка европейского города. Проспект украшают отреставрированные немецкие дома, 
@@ -98,7 +98,7 @@ const Day4Page = () => {
                     <p className='block-title'>Набережная</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Seafront} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Seafront} alt=""/>
                     <Card.Body>
                     <Card.Text>
                         Центр притяжения Зеленоградска — длинная и благоустроенная набережная. Здесь можно гулять и любоваться видами моря, отдыхать 
@@ -111,7 +111,7 @@ const Day4Page = () => {
                 <div className='d1-block' id='day3sec4'>
                     <p className='block-title-smallest'>Куда сходить вечером?</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Promenad} alt="Card image"/>
+                        <Card.Img className='card1-img' variant="top" src={Promenad} alt=""/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://promenad39.ru/' className='blue-link-text'> Променад </a> <br/>

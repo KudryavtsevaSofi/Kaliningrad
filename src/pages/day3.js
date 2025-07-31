@@ -27,7 +27,7 @@ const Day3Page = () => {
             <Header />
             <div>
                 <Card className="bg-dark text-white top-card">
-                    <Card.Img className="top-card-img" src={Tower} alt="Card image" />
+                    <Card.Img className="top-card-img" src={Tower} alt="" />
                     <Card.ImgOverlay>
                         <Card.Title className='card-title'>3 день | история города-крепости</Card.Title>
                         <Card.Text className='card-text'>
@@ -53,7 +53,7 @@ const Day3Page = () => {
                                 Альтштадт, Кнайпхоф и Лёбенихт) ещё в XIV веке. 
                             </div>
                             <Card className='accordion-card'>
-                                <Card.Img className='card1-img' variant="top" src={History} alt="Card image"/>
+                                <Card.Img className='card1-img' variant="top" src={History} alt=""/>
                                 <Card.Body>
                                 <Card.Text>
                                     Около 1760 года. Расписанный офорт. Фридрих Бернар Бернхард, Георг Бальтазар Пробст, Аусбург
@@ -68,7 +68,7 @@ const Day3Page = () => {
                                 городские ворота. Сегодня эти краснокирпичные строения — яркие памятники архитектуры неоготики.
                             </div>
                             <Card className='accordion-card'>
-                                <Card.Img className='card1-img' variant="top" src={History1} alt="Card image"/>
+                                <Card.Img className='card1-img' variant="top" src={History1} alt=""/>
                                 <Card.Body>
                                 <Card.Text>
                                     1843 год. Старейший снимок Калининграда
@@ -91,7 +91,7 @@ const Day3Page = () => {
                     <p className='block-title'>Форт №5</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Fort5} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Fort5} alt=""/>
                     <Card.Body>
                     <Card.Text>
                         <b>Адрес:</b> Калининград, СНТ Дачное, улица М.А. Булатова Форт № 5 <br/><br/>
@@ -108,7 +108,7 @@ const Day3Page = () => {
                     <p className='block-title'>Зоопарк</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Zoo} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Zoo} alt=""/>
                     <Card.Body>
                     <Card.Text>
                         Калининградский зоопарк — один из трёх зоопарков в современной России, имеющих статус «исторический зоопарк». 
@@ -120,7 +120,7 @@ const Day3Page = () => {
                 </Card>
                 <Card className='homlin-link'>
                     <Card.Body className='homlin-text'>
-                        <img className='attention-img' src={Attention} alt="Card image"/>
+                        <img className='attention-img' src={Attention} alt=""/>
                         Также здесь вы можете познакомиться с {" "}
                         <Link to="/#Ulya" className='blue-link-text'>
                             Улей
@@ -132,7 +132,7 @@ const Day3Page = () => {
                     <p className='block-title-smallest'>Башни и смотровые площадки</p>
                 </div>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Vrangel} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Vrangel} alt=""/>
                     <Card.Body>
                     <Card.Title>Башня Врангель</Card.Title>
                     <Card.Text>
@@ -150,7 +150,7 @@ const Day3Page = () => {
                 </Card>
                 <Card className='homlin-link-V'>
                     <Card.Body className='homlin-text'>
-                        <img className='attention-img' src={Attention} alt="Card image"/>
+                        <img className='attention-img' src={Attention} alt=""/>
                         Также здесь вы можете познакомиться с {" "}
                         <Link to="/#Varvara" className='blue-link-text'>
                             Варварой
@@ -159,7 +159,7 @@ const Day3Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Prud1} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Prud1} alt=""/>
                     <Card.Body>
                     <Card.Title>Смотровые площадка</Card.Title>
                     <Card.Text>
@@ -168,7 +168,7 @@ const Day3Page = () => {
                     </Card.Body>
                 </Card>
                 <Card className='card1'>
-                    <Card.Img className='card1-img' variant="top" src={Dona} alt="Card image"/>
+                    <Card.Img className='card1-img' variant="top" src={Dona} alt=""/>
                     <Card.Body>
                     <Card.Title>Башня Дона и Музей янтаря</Card.Title>
                     <Card.Text>
@@ -185,7 +185,7 @@ const Day3Page = () => {
                 </Card>
                 <Card className='homlin-link'>
                     <Card.Body className='homlin-text'>
-                        <img className='attention-img' src={Attention} alt="Card image"/>
+                        <img className='attention-img' src={Attention} alt=""/>
                         Также здесь вы можете познакомиться с {" "}
                         <Link to="/#Marta" className='blue-link-text'>
                             Мартой
@@ -196,7 +196,7 @@ const Day3Page = () => {
                 <div className='d1-block' id='day3sec4'>
                     <p className='block-title-smallest'>Куда сходить вечером?</p>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Brecel} alt="Card image"/>
+                        <Card.Img className='card1-img' variant="top" src={Brecel} alt=""/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://rk-rk.ru/restorany/pivnoj-restoran-bretsel/' className='blue-link-text'> Брецель </a> <br/>
@@ -206,7 +206,7 @@ const Day3Page = () => {
                         </Card.Body>
                     </Card>
                     <Card className='card1'>
-                        <Card.Img className='card1-img' variant="top" src={Vtarelke} alt="Card image"/>
+                        <Card.Img className='card1-img' variant="top" src={Vtarelke} alt=""/>
                         <Card.Body>
                         <Card.Text>
                             <a href='https://istoriyavtarelke.ru/' className='blue-link-text'> История в тарелке </a> <br/>
