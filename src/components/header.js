@@ -1,27 +1,35 @@
 import { useState } from 'react';
 import '../assets/styles/header.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation, Link, useNavigate } from 'react-router-dom';
 
 const Header = ( ) => {
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const handleNavClick = () => {
     setExpanded(false);
   };
 
+  const handleBrandClick = () => {
+    if (location.pathname !== '/') {
+      navigate('/');
+    }
+  };
+
   const getBrandText = () => {
     if (location.pathname === '/') {
       return 'Добро пожаловать!';
-    } else
-    return 'Назад';
+    } else {
+      return 'Назад';
+    }
   };
 
   return (
     <Navbar className='navbar navbar-dark bg-dark' sticky="top" expand="lg" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
       <Container fluid>
-        <Navbar.Brand  href="/">
+        <Navbar.Brand as="div" onClick={handleBrandClick} style={{ cursor: 'pointer' }}>
           <h5>{getBrandText()}</h5>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="myNavbar" />

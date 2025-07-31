@@ -28,7 +28,7 @@ const Homelins = () => {
                         <b>Адрес:</b> Медовый мост 
                     </Card.Text>
                     </Card.Body>
-                    <Button variant="secondary" href='https://yandex.ru/maps/-/CHHlVCk6' className='card-btn'>Показать на карте</Button>
+                    <Button variant="secondary" href='https://yandex.ru/maps/?mode=search&text=CHHlVCk6' className='card-btn'>Показать на карте</Button>
                 </Card>
                 <Card className='card-block'>
                     <Card.Img variant="top" src={Marta} id='Marta' alt=""/>
