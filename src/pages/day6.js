@@ -20,10 +20,10 @@ const Day6Page = () => {
                 <Card className="bg-dark text-white top-card">
                     <Card.Img className="top-card-img" src={Casino} alt="" />
                     <Card.ImgOverlay>
-                        <Card.Title className='card-title'>5 день | музеи</Card.Title>
+                        <Card.Title className='card-title'>5 день | игорная зона</Card.Title>
                         <Card.Text className='card-text'>
                         Ну а сегодня все просто - снова едем в Зеленоградск и заглядываем в игорную зону «Янтарная» — 
-                        одну из четырех официально установленных игорных зон в России. Она появилась 1 июля 2009 года. <br/><br/>
+                        одну из четырех официально установленных игорных зон в России. Она появилась 1 июля 2009 года. <br/>
                         </Card.Text>
                     </Card.ImgOverlay>
                 </Card>
